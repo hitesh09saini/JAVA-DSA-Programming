@@ -6,6 +6,7 @@ public class bestsellingprofit {
         int ans = 0;
         int max = Integer.MIN_VALUE;
         int arr[] = new int[prices.length];
+        
 
         for (int i = arr.length - 1; i >= 0; i--) {
             if (max < prices[i]) {

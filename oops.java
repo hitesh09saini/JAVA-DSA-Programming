@@ -17,7 +17,7 @@ public class oops {
         myAcc.username = "hitesh";
         System.out.println(myAcc.username);
 
-        myAcc.setPassword("SSSS9784");
+        myAcc.setPassword("343$%xcnsns");
 
     }
 }
@@ -62,6 +62,6 @@ class BankAccount {
     private String password;
 
     public void setPassword(String pwd) {
-        password = pwd;
+        this.password = pwd;
     }
 }
