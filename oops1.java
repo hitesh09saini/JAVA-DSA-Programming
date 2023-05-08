@@ -9,6 +9,7 @@ public class oops1 { public static void main(String[] args) {
     Student s1 = new Student(s);
     
     s1.setPass("hitesh");
+    
 
     System.out.println(s1.name);
     System.out.println(s1.roll);
@@ -35,7 +36,9 @@ Student(Student s) {
     this.name = s.name;
     this.roll = s.roll;
 
-    this.marks = s.marks;
+    for(int  i =0 ;i< marks.length ;i++){
+        this.marks[i]=s.marks[i];
+    }
 
 }
 
