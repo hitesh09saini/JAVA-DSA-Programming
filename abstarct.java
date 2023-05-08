@@ -1,35 +1,39 @@
 public class abstarct {
     public static void main(String[] args) {
-       Hourse h = new Hourse();
-       h.eat();
-       h.walk();
+        Hourse h = new Hourse();
+        h.eat();
+        h.walk();
 
-       Chiken c = new Chiken();
-       c.eat();
-       c.walk();
+        Chiken c = new Chiken();
+        c.eat();
+        c.walk();
     }
 }
 
+abstract class Animal {
+    String color;
 
-abstract class Animal{
+    Animal() {
+        color = "brown";
+    }
 
-    void eat(){
+    void eat() {
         System.out.println("animal eats");
     }
 
     abstract void walk();
-   
-} 
 
-class Hourse extends Animal{
+}
 
-    void walk(){
+class Hourse extends Animal {
+
+    void walk() {
         System.out.println("walk on 4 legs");
     }
 }
 
 class Chiken extends Animal {
-    void walk(){
+    void walk() {
         System.out.println("walks on 2 legs");
     }
 }
