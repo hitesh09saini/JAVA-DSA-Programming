@@ -9,6 +9,7 @@ public class recuSort {
    
     public static void main(String[] args) {
         int arr[]={1,2,3,8,5};
+        System.out.println(arr.length);
        System.out.println(Sorted(arr, 0));
     }
 }
