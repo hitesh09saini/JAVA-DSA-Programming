@@ -3,14 +3,14 @@ package recurtion;
 public class serInRotArr {
     public static void main(String[] args) {
         int[] arr = { 4, 5, 6, 7, 0, 1 };
-        int t = 9;
+        int t = 4;
 
         System.out.println(findTarget(arr, t, 0, arr.length));
     }
 
     public static int findTarget(int[] arr, int t, int s, int e) {
         int m = (s+e)/2;
-        int inx =0;
+        int inx = -1;
        
          if(arr[0]==t){
             return 0;
@@ -19,9 +19,9 @@ public class serInRotArr {
 
           inx=   index(arr, t, m+1, e-1);// for right
 
-        } else if (arr[0] <= t) {
+        } else if (arr[0] < t) {
 
-          inx=   index(arr, t, s, m);  // for left
+          inx=   index(arr, t, 1, m);  // for left
 
         }
 
