@@ -6,18 +6,18 @@ public class removeConsChar {
         char []ch =  st.toCharArray();
         char  max = ' ';
         
-        String sb = "";
+        StringBuilder sb = new StringBuilder();
 
         for(int i = 0;i<st.length();i++){
 
             if(max != ch[i]){
                max = ch[i];
-               sb+=max;
+              sb.append(max);
             }
            
 
         }
-        
+         sb.toString();        // StringBuilder convert into String 
         System.out.println(sb);
     }
 }
