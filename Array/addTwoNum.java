@@ -6,10 +6,10 @@ import java.util.Collections;
 import java.util.List;
 
 
-public class arr {
+public class addTwoNum {
    public static void main(String[] args) {
         List<Integer> li = new ArrayList<>( Arrays.asList(2,4,3));
-        List<Integer> li1 = new ArrayList<>( Arrays.asList(5,6,4,5));
+        List<Integer> li1 = new ArrayList<>( Arrays.asList(5,6,4));
         
         
         
