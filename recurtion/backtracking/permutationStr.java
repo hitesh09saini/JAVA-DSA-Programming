@@ -2,7 +2,7 @@ package recurtion.backtracking;
 
 public class permutationStr {
     public static void main(String[] args) {
-        String str = "ab";
+        String str = "abc";
         findPermutation(str, "");
     }
     public static void findPermutation(String st , String news ) {

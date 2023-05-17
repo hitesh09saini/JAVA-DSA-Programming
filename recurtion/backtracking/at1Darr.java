@@ -13,7 +13,7 @@ public class at1Darr {
          if(inx==arr.length)return;
          arr[inx]=inx+1;
          retur(arr, inx+1);
-         arr[inx] = arr[inx]-2;
+         arr[inx] = arr[inx]-2; // backtrackig
          
 
     }

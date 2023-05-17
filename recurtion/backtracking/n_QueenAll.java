@@ -1,6 +1,6 @@
 package recurtion.backtracking;
 
-public class n_Quees {
+public class n_QueenAll {
     public static void main(String[] args) {
         int n = 2;
         char board[][] = new char[n][n];
@@ -43,5 +43,7 @@ public class n_Quees {
             nQueens(ch, in + 1); // function call
             ch[in][i] = '.'; // backTracking step
         }
+
+        
     }
 }
