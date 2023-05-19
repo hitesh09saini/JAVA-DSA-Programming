@@ -1,4 +1,4 @@
-package recurtion.backtracking;
+package recurtion;
 
 public class n_QueenNboard {
     public static void main(String[] args) {
