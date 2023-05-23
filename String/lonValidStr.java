@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class lonValidStr {
     public static void main(String[] args) {
-        String s ="()(()";
+        String s ="()(()()()";
 
         System.out.println(check(s));
     }
