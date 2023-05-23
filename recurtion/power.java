@@ -4,10 +4,10 @@ import java.util.logging.Handler;
 
 public class power {
     public static void main(String[] args) {
-        int n =2;
-        int x =2;
-        int ans = x;
-       System.out.println(power(x, ans));
+        int n =361;
+        int x =163;
+   
+       System.out.println(power(n, x ));
     }
     public static int pow(int x ,int n,int ans) {
         if(n==1)return ans;
@@ -18,23 +18,32 @@ public class power {
         if(n==0)return 1;
 
         return x*pow1(x, n-1);
-    }
+       }
 
     //approch 3  O(logn)
+    static long mod = 1000000007L;  
 
-    public static int power(int x ,int n) {
-       
-      if(n==0)return 1;
+    public static long power(int n,int r)
 
-      int halfpower = power(x, n/2);
-      int halfPowersq = halfpower*halfpower;
-      
-      // if  n is odd 
+    {
 
-      if(n%2!=0){
-        halfPowersq*=x;
-      }
-      return halfPowersq;
+        if(r == 1){
+
+            return n;
+
+        }
+
+        if(r%2 == 0){
+
+            long temp = power(n, r/2)%mod;
+
+            return ((temp*temp)%mod);
+
+        } else {
+
+            return (n*power(n, r-1)%mod);
+
+        }
 
     }
 } 

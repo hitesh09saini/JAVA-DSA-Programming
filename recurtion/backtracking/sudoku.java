@@ -1,3 +1,5 @@
+package recurtion.backtracking;
+
 public class sudoku {
     public static void main(String[] args) {
         int sudoku[][] = { { 0, 0, 8, 0, 0, 0, 0, 0, 0 },

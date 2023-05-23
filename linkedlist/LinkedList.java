@@ -1,6 +1,5 @@
-package linkedlist;
 
-public class LinkList {
+public class LinkedList {
 
     public static class Node {
         int data;
@@ -263,21 +262,70 @@ public class LinkList {
         return true;
     }
 
+    public static boolean isCycle() {
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static void removeCycle() {
+        // detect cycle
+        Node slow = head;
+        Node fast = head;
+        boolean flag = false;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast) {
+
+                flag = true;
+                break;
+
+            }
+        }
+        // not exist
+
+        if (flag == false) {
+            return;
+        }
+
+        // find meeting point
+
+        slow = head;
+        Node prev = null;
+        while (slow != fast) {
+            prev = fast;
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        // break cycle point
+
+        prev.next = null;
+
+    }
+
     public static void main(String[] args) {
-        LinkList li = new LinkList();
-        li.addFirst(50);
-        li.addFirst(2);
-        li.addlast(5);
-        li.addlast(9);
-        li.addBetween(2, 80);
+        head = new Node(1);
+        head.next = new Node(2);
+        head.next.next = new Node(6);
+        head.next.next.next = new Node(5);
+        head.next.next.next.next = head.next.next;
 
-        li.PrintLL();
+        System.out.println(isCycle());
+        removeCycle();
+        System.out.println(isCycle());
 
-        li.removeFirst();
-        li.removeLast();
-
-        li.PrintLL();
-        System.out.println(li.searchKey(80));
-         System.out.println(checkPalindrome());
     }
 }
+ 
