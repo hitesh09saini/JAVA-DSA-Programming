@@ -1,0 +1,902 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "equbilPoint",
+            "request": "launch",
+            "mainClass": "equbilPoint",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "sort012S",
+            "request": "launch",
+            "mainClass": "sort012S",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "arraylist",
+            "request": "launch",
+            "mainClass": "ArrayList.arraylist",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "pairSum2",
+            "request": "launch",
+            "mainClass": "ArrayList.pairSum2",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "pairsum",
+            "request": "launch",
+            "mainClass": "ArrayList.pairsum",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "threeArrlist",
+            "request": "launch",
+            "mainClass": "ArrayList.threeArrlist",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "twoDarray",
+            "request": "launch",
+            "mainClass": "ArrayList.twoDarray",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "BitEvenandOdd",
+            "request": "launch",
+            "mainClass": "BitEvenandOdd",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "Queue",
+            "request": "launch",
+            "mainClass": "Queue",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "Static",
+            "request": "launch",
+            "mainClass": "Static",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "Super",
+            "request": "launch",
+            "mainClass": "Super",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "abstarct",
+            "request": "launch",
+            "mainClass": "abstarct",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "addTwoNum",
+            "request": "launch",
+            "mainClass": "addTwoNum",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "addTwovalue",
+            "request": "launch",
+            "mainClass": "addTwovalue",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "addonebybit",
+            "request": "launch",
+            "mainClass": "addonebybit",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "arr",
+            "request": "launch",
+            "mainClass": "arr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "bestsellingprofit",
+            "request": "launch",
+            "mainClass": "bestsellingprofit",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "binarySorting",
+            "request": "launch",
+            "mainClass": "binarySorting",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "circularQueue",
+            "request": "launch",
+            "mainClass": "circularQueue",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "classroom",
+            "request": "launch",
+            "mainClass": "classroom",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "clearIthbi",
+            "request": "launch",
+            "mainClass": "clearIthbi",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "clearRangevalue",
+            "request": "launch",
+            "mainClass": "clearRangevalue",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "clearlateofbit",
+            "request": "launch",
+            "mainClass": "clearlateofbit",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "comapir",
+            "request": "launch",
+            "mainClass": "comapir",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "convertuppercase",
+            "request": "launch",
+            "mainClass": "convertuppercase",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "count",
+            "request": "launch",
+            "mainClass": "count",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "countlowercase",
+            "request": "launch",
+            "mainClass": "countlowercase",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "countsetbit",
+            "request": "launch",
+            "mainClass": "countsetbit",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "fastexponentition",
+            "request": "launch",
+            "mainClass": "fastexponentition",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "firstOccinStrin",
+            "request": "launch",
+            "mainClass": "firstOccinStrin",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "getITHbit",
+            "request": "launch",
+            "mainClass": "getITHbit",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "givenSumPair",
+            "request": "launch",
+            "mainClass": "givenSumPair",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "in",
+            "request": "launch",
+            "mainClass": "in",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "interfaceOops",
+            "request": "launch",
+            "mainClass": "interfaceOops",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "intern",
+            "request": "launch",
+            "mainClass": "intern",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "isPalindrom",
+            "request": "launch",
+            "mainClass": "isPalindrom",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "keyboard",
+            "request": "launch",
+            "mainClass": "keyboard",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "kthLargestEle",
+            "request": "launch",
+            "mainClass": "kthLargestEle",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "letterOrdigit",
+            "request": "launch",
+            "mainClass": "letterOrdigit",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "lexicographic",
+            "request": "launch",
+            "mainClass": "lexicographic",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "list",
+            "request": "launch",
+            "mainClass": "list",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "lonValidStr",
+            "request": "launch",
+            "mainClass": "lonValidStr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "longPalindSub",
+            "request": "launch",
+            "mainClass": "longPalindSub",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "longestCommonPrefix",
+            "request": "launch",
+            "mainClass": "longestCommonPrefix",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "longestSubStr",
+            "request": "launch",
+            "mainClass": "longestSubStr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "maxAmin",
+            "request": "launch",
+            "mainClass": "maxAmin",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "maxContainer",
+            "request": "launch",
+            "mainClass": "maxContainer",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "maxProdSub",
+            "request": "launch",
+            "mainClass": "maxProdSub",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "mediTwoSorArr",
+            "request": "launch",
+            "mainClass": "mediTwoSorArr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "mergeOverlapingInter",
+            "request": "launch",
+            "mainClass": "mergeOverlapingInter",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "minNumRotArr",
+            "request": "launch",
+            "mainClass": "minNumRotArr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "missNum",
+            "request": "launch",
+            "mainClass": "missNum",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "pemutation",
+            "request": "launch",
+            "mainClass": "pemutation",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "placedPandN",
+            "request": "launch",
+            "mainClass": "placedPandN",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "powerOfTwo",
+            "request": "launch",
+            "mainClass": "powerOfTwo",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "powerof2",
+            "request": "launch",
+            "mainClass": "powerof2",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "printAllDup",
+            "request": "launch",
+            "mainClass": "printAllDup",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "prodOfArr_exept_self",
+            "request": "launch",
+            "mainClass": "prodOfArr_exept_self",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "profit",
+            "request": "launch",
+            "mainClass": "profit",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "ArraSum",
+            "request": "launch",
+            "mainClass": "recurtion.ArraSum",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "StringSort",
+            "request": "launch",
+            "mainClass": "recurtion.StringSort",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "at1Darr",
+            "request": "launch",
+            "mainClass": "recurtion.backtracking.at1Darr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "gridWays",
+            "request": "launch",
+            "mainClass": "recurtion.backtracking.gridWays",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "n_QueenAll",
+            "request": "launch",
+            "mainClass": "recurtion.backtracking.n_QueenAll",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "nextpermutation",
+            "request": "launch",
+            "mainClass": "recurtion.backtracking.nextpermutation",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "permutationStr",
+            "request": "launch",
+            "mainClass": "recurtion.backtracking.permutationStr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "subsets",
+            "request": "launch",
+            "mainClass": "recurtion.backtracking.subsets",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "sudoku",
+            "request": "launch",
+            "mainClass": "recurtion.backtracking.sudoku",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "binaryStrings",
+            "request": "launch",
+            "mainClass": "recurtion.binaryStrings",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "calcuExpo",
+            "request": "launch",
+            "mainClass": "recurtion.calcuExpo",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "convertSrting",
+            "request": "launch",
+            "mainClass": "recurtion.convertSrting",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "countSubstrings",
+            "request": "launch",
+            "mainClass": "recurtion.countSubstrings",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "recurtion.factorial",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "fibonacci",
+            "request": "launch",
+            "mainClass": "recurtion.fibonacci",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "findLengthOf_str",
+            "request": "launch",
+            "mainClass": "recurtion.findLengthOf_str",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "friendsPairingProblem",
+            "request": "launch",
+            "mainClass": "recurtion.friendsPairingProblem",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "fun",
+            "request": "launch",
+            "mainClass": "recurtion.fun",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "lastOccurance",
+            "request": "launch",
+            "mainClass": "recurtion.lastOccurance",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "margeSort",
+            "request": "launch",
+            "mainClass": "recurtion.margeSort",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "n_QueenNboard",
+            "request": "launch",
+            "mainClass": "recurtion.n_QueenNboard",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "numOccrance",
+            "request": "launch",
+            "mainClass": "recurtion.numOccrance",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "power",
+            "request": "launch",
+            "mainClass": "recurtion.power",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "quickSort",
+            "request": "launch",
+            "mainClass": "recurtion.quickSort",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "recuFibonaci",
+            "request": "launch",
+            "mainClass": "recurtion.recuFibonaci",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "recuOccurance",
+            "request": "launch",
+            "mainClass": "recurtion.recuOccurance",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "recuProblem1",
+            "request": "launch",
+            "mainClass": "recurtion.recuProblem1",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "recuProblem2",
+            "request": "launch",
+            "mainClass": "recurtion.recuProblem2",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "recuProblem3",
+            "request": "launch",
+            "mainClass": "recurtion.recuProblem3",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "recuSort",
+            "request": "launch",
+            "mainClass": "recurtion.recuSort",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "recurtion",
+            "request": "launch",
+            "mainClass": "recurtion.recurtion",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "removeDuplicate",
+            "request": "launch",
+            "mainClass": "recurtion.removeDuplicate",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "serInRotArr",
+            "request": "launch",
+            "mainClass": "recurtion.serInRotArr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "tilingProblem",
+            "request": "launch",
+            "mainClass": "recurtion.tilingProblem",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "towerOfHanoi",
+            "request": "launch",
+            "mainClass": "recurtion.towerOfHanoi",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "remDup",
+            "request": "launch",
+            "mainClass": "remDup",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "remove",
+            "request": "launch",
+            "mainClass": "remove",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "removeConsChar",
+            "request": "launch",
+            "mainClass": "removeConsChar",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "repeat_and_missingnum",
+            "request": "launch",
+            "mainClass": "repeat_and_missingnum",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "rightMa",
+            "request": "launch",
+            "mainClass": "rightMa",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "romanTonumbers",
+            "request": "launch",
+            "mainClass": "romanTonumbers",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "rotateImage",
+            "request": "launch",
+            "mainClass": "rotateImage",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "search",
+            "request": "launch",
+            "mainClass": "search",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "setIthbit",
+            "request": "launch",
+            "mainClass": "setIthbit",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "setMatrixZeroes",
+            "request": "launch",
+            "mainClass": "setMatrixZeroes",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "shortestpath",
+            "request": "launch",
+            "mainClass": "shortestpath",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "smartman",
+            "request": "launch",
+            "mainClass": "smartman",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "solution",
+            "request": "launch",
+            "mainClass": "solution",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "strcompare",
+            "request": "launch",
+            "mainClass": "strcompare",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "string",
+            "request": "launch",
+            "mainClass": "string",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "stringbulider",
+            "request": "launch",
+            "mainClass": "stringbulider",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "stringcompression",
+            "request": "launch",
+            "mainClass": "stringcompression",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "swapbybit",
+            "request": "launch",
+            "mainClass": "swapbybit",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "threeSum",
+            "request": "launch",
+            "mainClass": "threeSum",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "total",
+            "request": "launch",
+            "mainClass": "total",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "trapwater",
+            "request": "launch",
+            "mainClass": "trapwater",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "triplateSum",
+            "request": "launch",
+            "mainClass": "triplateSum",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "updatebit",
+            "request": "launch",
+            "mainClass": "updatebit",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "uppertolower",
+            "request": "launch",
+            "mainClass": "uppertolower",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "validAnagram",
+            "request": "launch",
+            "mainClass": "validAnagram",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "validPalindrom",
+            "request": "launch",
+            "mainClass": "validPalindrom",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "waterContainer",
+            "request": "launch",
+            "mainClass": "waterContainer",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "wordSearch",
+            "request": "launch",
+            "mainClass": "wordSearch",
+            "projectName": "java second programing_981b9d45"
+        }
+    ]
+}

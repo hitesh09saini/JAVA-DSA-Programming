@@ -1,3 +1,4 @@
+import recurtion.margeSort;
 
 public class LinkedList {
 
@@ -315,17 +316,85 @@ public class LinkedList {
 
     }
 
-    public static void main(String[] args) {
-        head = new Node(1);
-        head.next = new Node(2);
-        head.next.next = new Node(6);
-        head.next.next.next = new Node(5);
-        head.next.next.next.next = head.next.next;
+    public  Node mergeSort(Node head) {
 
-        System.out.println(isCycle());
-        removeCycle();
-        System.out.println(isCycle());
+        if (head == null || head.next == null)
+            return head;
 
+        // find mid
+
+        Node mid = getMid(head);
+        // left & right
+        Node rightHead = mid.next;
+        mid.next = null;
+        Node newLeft = mergeSort(head);
+        Node newRight = mergeSort(rightHead);
+
+        // merge
+        return merge(newLeft, newRight);
     }
+
+    private  Node getMid(Node head) {
+        Node slow = head;
+        Node fast = head.next;
+
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+
+        }
+        return slow;
+    }
+
+    private  Node merge(Node newLeft, Node newRight) {
+        Node mergeLL = new Node(-1);
+        Node temp = mergeLL;
+
+        while (newLeft != null && newRight != null) {
+
+            if (newLeft.data <= newRight.data) {
+                temp.next = newLeft;
+                newLeft = newLeft.next;
+
+                temp = temp.next;
+            } else {
+                temp.next = newRight;
+                newRight = newRight.next;
+
+                temp = temp.next;
+            }
+        }
+
+        while (newLeft != null) {
+            temp.next = newLeft;
+            newLeft = newLeft.next;
+
+            temp = temp.next;
+        }
+
+        while (newRight != null) {
+            temp.next = newRight;
+            newRight = newRight.next;
+
+            temp = temp.next;
+
+        }
+        return mergeLL.next;
+    }
+
+    public static void main(String[] args) {
+       LinkedList l = new LinkedList();
+
+       l.addFirst(1);
+       l.addFirst(2);
+       l.addFirst(3);
+       l.addFirst(4);
+       l.addFirst(5);
+      
+
+       l.PrintLL();
+       l.head = l.mergeSort(head);
+       l.PrintLL();
+    }
+
 }
- 
