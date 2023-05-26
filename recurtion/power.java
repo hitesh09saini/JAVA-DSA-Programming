@@ -4,8 +4,8 @@ import java.util.logging.Handler;
 
 public class power {
     public static void main(String[] args) {
-        int n =361;
-        int x =163;
+        int n =2;
+        int x =4;
    
        System.out.println(power(n, x ));
     }
@@ -27,23 +27,8 @@ public class power {
 
     {
 
-        if(r == 1){
-
-            return n;
-
-        }
-
-        if(r%2 == 0){
-
-            long temp = power(n, r/2)%mod;
-
-            return ((temp*temp)%mod);
-
-        } else {
-
-            return (n*power(n, r-1)%mod);
-
-        }
-
+        if(r == 0)return 1;
+        if(r%2 == 0)return power(n*n, r/2)%mod;
+        else return (n*power(n, r-1)%mod);
     }
 } 

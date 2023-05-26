@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pow",
+            "request": "launch",
+            "mainClass": "recurtion.pow",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "partition",
+            "request": "launch",
+            "mainClass": "partition",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "UnionArr",
+            "request": "launch",
+            "mainClass": "UnionArr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "altPosiandNeg",
+            "request": "launch",
+            "mainClass": "altPosiandNeg",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "tranPoint",
+            "request": "launch",
+            "mainClass": "tranPoint",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "DoubleLL",
+            "request": "launch",
+            "mainClass": "DoubleLL",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "equbilPoint",
             "request": "launch",
             "mainClass": "equbilPoint",

@@ -334,7 +334,7 @@ public class LinkedList {
         return merge(newLeft, newRight);
     }
 
-    private  Node getMid(Node head) {
+    private static  Node getMid(Node head) {
         Node slow = head;
         Node fast = head.next;
 
@@ -380,6 +380,45 @@ public class LinkedList {
 
         }
         return mergeLL.next;
+        
+    }
+
+    public static void Zig_Zag() {
+        if (head == null || head.next == null)
+        return;
+
+    // find mid
+
+        Node mid = getMid(head);
+       
+        // reverse 2nd half 
+        Node curr = mid.next;
+        mid.next = null;
+        Node prev = null;
+        Node next;
+        while(curr!=null){
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        Node left = head;
+        Node right = prev;
+        Node nextl , nextr;
+        while(left != null && right !=null){
+
+            nextl = left.next;
+            left.next = right;
+            nextr = right.next;
+            right.next = nextl;
+
+            left = nextl;
+            right = nextr;
+        }
+
+      
+        
     }
 
     public static void main(String[] args) {
@@ -393,7 +432,7 @@ public class LinkedList {
       
 
        l.PrintLL();
-       l.head = l.mergeSort(head);
+       l.Zig_Zag();
        l.PrintLL();
     }
 
