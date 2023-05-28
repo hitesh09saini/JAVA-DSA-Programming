@@ -16,4 +16,18 @@ public class list {
         System.out.println(p);
       
     }
+
+    public static void add(int e) {
+    }
+
+    public static int get() {
+        return 0;
+    }
+
+    public static void remove() {
+    }
+
+    public static int size() {
+        return 0;
+    }
 }

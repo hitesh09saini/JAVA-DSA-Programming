@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "maxHIstro",
+            "request": "launch",
+            "mainClass": "maxHIstro",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "duplicateParant",
+            "request": "launch",
+            "mainClass": "duplicateParant",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "validParentheses",
+            "request": "launch",
+            "mainClass": "validParentheses",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "nextGreater",
+            "request": "launch",
+            "mainClass": "nextGreater",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "StockSpan",
+            "request": "launch",
+            "mainClass": "StockSpan",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "reverseStack",
+            "request": "launch",
+            "mainClass": "reverseStack",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "reverse",
+            "request": "launch",
+            "mainClass": "reverse",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "bottom",
+            "request": "launch",
+            "mainClass": "bottom",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "StackA",
+            "request": "launch",
+            "mainClass": "StackA",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "StackB",
+            "request": "launch",
+            "mainClass": "StackB",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "Ylinkedlist",
+            "request": "launch",
+            "mainClass": "Ylinkedlist",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "pow",
             "request": "launch",
             "mainClass": "recurtion.pow",
