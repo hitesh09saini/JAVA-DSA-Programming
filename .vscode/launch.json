@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "reAlt",
+            "request": "launch",
+            "mainClass": "reAlt",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "maxHIstro",
             "request": "launch",
             "mainClass": "maxHIstro",
