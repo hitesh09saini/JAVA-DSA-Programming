@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rowWithMax1s",
+            "request": "launch",
+            "mainClass": "rowWithMax1s",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "booleanMatrix",
+            "request": "launch",
+            "mainClass": "booleanMatrix",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "intInverse",
+            "request": "launch",
+            "mainClass": "intInverse",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "belowOfTriplate",
+            "request": "launch",
+            "mainClass": "belowOfTriplate",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "transpose",
+            "request": "launch",
+            "mainClass": "transpose",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "Pythagorean",
+            "request": "launch",
+            "mainClass": "Pythagorean",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "reAlt",
             "request": "launch",
             "mainClass": "reAlt",
