@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "makequeuebydeque",
+            "request": "launch",
+            "mainClass": "Queue.makequeuebydeque",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "StackbyDeque",
+            "request": "launch",
+            "mainClass": "StackbyDeque",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "deque",
+            "request": "launch",
+            "mainClass": "Queue.deque",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "queueReverse",
+            "request": "launch",
+            "mainClass": "Queue.queueReverse",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "interleave",
+            "request": "launch",
+            "mainClass": "Queue.interleave",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "nonRepeatingl",
+            "request": "launch",
+            "mainClass": "Queue.nonRepeatingl",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "StackUsingTwoQueue",
+            "request": "launch",
+            "mainClass": "Queue.StackUsingTwoQueue",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "queueUsingStack",
+            "request": "launch",
+            "mainClass": "Queue.queueUsingStack",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "pro",
+            "request": "launch",
+            "mainClass": "Queue.pro",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "QueueB",
+            "request": "launch",
+            "mainClass": "Queue.QueueB",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "QueueA",
+            "request": "launch",
+            "mainClass": "Queue.QueueA",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "rowWithMax1s",
             "request": "launch",
             "mainClass": "rowWithMax1s",

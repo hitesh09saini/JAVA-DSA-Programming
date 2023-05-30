@@ -1,6 +1,8 @@
+import java.util.Deque;
+
 import recurtion.margeSort;
 
-public class LinkedList {
+public class LinkedList implements Deque<Integer> {
 
     public static class Node {
         int data;
