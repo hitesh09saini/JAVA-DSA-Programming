@@ -1,7 +1,7 @@
 public class trapwater {
 
     public static void main(String[] args) {
-        int trap[] = { 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
+        int trap[] = {1,5,4,3 };
         int left[] = new int[trap.length];
         int right[] = new int[trap.length];
         int max = 0;

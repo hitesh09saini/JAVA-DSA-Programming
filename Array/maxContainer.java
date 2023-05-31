@@ -1,7 +1,7 @@
-package arrDSA;
+
 public class maxContainer {
     public static void main(String[] args) {
-        int hight[]= {1,8,6,2,5,4,8,3,7};
+        int hight[]= {1,5,4,3};
         int n = hight.length;
          int i = 0;
          int j = n-1;

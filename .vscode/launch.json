@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nextPermutation",
+            "request": "launch",
+            "mainClass": "recurtion.backtracking.nextPermutation",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "numpermutation",
+            "request": "launch",
+            "mainClass": "recurtion.backtracking.numpermutation",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "maxcoin",
+            "request": "launch",
+            "mainClass": "maxcoin",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "maxTriplate",
+            "request": "launch",
+            "mainClass": "maxTriplate",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "activitySection",
+            "request": "launch",
+            "mainClass": "greedyAlgorithum.activitySection",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "maxContainer",
+            "request": "launch",
+            "mainClass": "arrDSA.maxContainer",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "makequeuebydeque",
             "request": "launch",
             "mainClass": "Queue.makequeuebydeque",
