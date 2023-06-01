@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinaryTreeA",
+            "request": "launch",
+            "mainClass": "BinaryTree.BinaryTreeA",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "chocolaProblem",
+            "request": "launch",
+            "mainClass": "greedyAlgorithum.chocolaProblem",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "jobSequencingProblem",
+            "request": "launch",
+            "mainClass": "greedyAlgorithum.jobSequencingProblem",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "indianCoins",
+            "request": "launch",
+            "mainClass": "greedyAlgorithum.indianCoins",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "MaxLengthChainOfPair",
+            "request": "launch",
+            "mainClass": "greedyAlgorithum.MaxLengthChainOfPair",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "MinAbsoluteDifferencePairs",
+            "request": "launch",
+            "mainClass": "greedyAlgorithum.MinAbsoluteDifferencePairs",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "fractionalKnapsack",
+            "request": "launch",
+            "mainClass": "greedyAlgorithum.fractionalKnapsack",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "nextPermutation",
             "request": "launch",
             "mainClass": "recurtion.backtracking.nextPermutation",
