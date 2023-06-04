@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "majorityOfelement",
+            "request": "launch",
+            "mainClass": "majorityOfelement",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "ArthmeticSubarrays",
+            "request": "launch",
+            "mainClass": "ArthmeticSubarrays",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "wateringofPlants",
+            "request": "launch",
+            "mainClass": "wateringofPlants",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "prime",
             "request": "launch",
             "mainClass": "prime",
