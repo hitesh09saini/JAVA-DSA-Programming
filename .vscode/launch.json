@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prime",
+            "request": "launch",
+            "mainClass": "prime",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "BinaryTreeA",
             "request": "launch",
             "mainClass": "BinaryTree.BinaryTreeA",
