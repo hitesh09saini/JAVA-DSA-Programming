@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayingTheArr",
+            "request": "launch",
+            "mainClass": "ArrayingTheArr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "countSubarray",
+            "request": "launch",
+            "mainClass": "countSubarray",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "nextSmallestPallindrom",
+            "request": "launch",
+            "mainClass": "nextSmallestPallindrom",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "bst2",
+            "request": "launch",
+            "mainClass": "binarySearchTree.bst2",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "bstSearch",
+            "request": "launch",
+            "mainClass": "binarySearchTree.bstSearch",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "allSubset",
+            "request": "launch",
+            "mainClass": "allSubset",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "countTheSubarraysHavingPrduc",
+            "request": "launch",
+            "mainClass": "countTheSubarraysHavingPrduc",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "sortArr",
+            "request": "launch",
+            "mainClass": "sortArr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "maxCircularSubArr",
+            "request": "launch",
+            "mainClass": "maxCircularSubArr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "majorityOfelement",
             "request": "launch",
             "mainClass": "majorityOfelement",
