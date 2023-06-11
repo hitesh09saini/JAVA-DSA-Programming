@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "freq",
+            "request": "launch",
+            "mainClass": "freq",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "rotations",
+            "request": "launch",
+            "mainClass": "rotations",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "reverseString",
+            "request": "launch",
+            "mainClass": "reverseString",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "largestRactOf1st",
+            "request": "launch",
+            "mainClass": "largestRactOf1st",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "ArrayingTheArr",
             "request": "launch",
             "mainClass": "ArrayingTheArr",
