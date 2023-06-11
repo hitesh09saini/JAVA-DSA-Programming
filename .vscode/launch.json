@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AlternateMarge",
+            "request": "launch",
+            "mainClass": "AlternateMarge",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "reverseWord",
+            "request": "launch",
+            "mainClass": "reverseWord",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "palimdrom",
+            "request": "launch",
+            "mainClass": "palimdrom",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "anagram",
+            "request": "launch",
+            "mainClass": "anagram",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "binaryString",
+            "request": "launch",
+            "mainClass": "binaryString",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "maxOcc",
+            "request": "launch",
+            "mainClass": "maxOcc",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "freq",
             "request": "launch",
             "mainClass": "freq",
