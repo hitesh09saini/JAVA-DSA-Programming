@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "logestSubString",
+            "request": "launch",
+            "mainClass": "logestSubString",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "lenghtOfLAstWord",
+            "request": "launch",
+            "mainClass": "lenghtOfLAstWord",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "romantoInteger",
+            "request": "launch",
+            "mainClass": "romantoInteger",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "longestPreFix",
+            "request": "launch",
+            "mainClass": "longestPreFix",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "AlternateMarge",
             "request": "launch",
             "mainClass": "AlternateMarge",
