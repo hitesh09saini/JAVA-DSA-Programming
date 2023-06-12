@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "removeDuplicate",
+            "request": "launch",
+            "mainClass": "removeDuplicate",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "largestDstrintsub",
+            "request": "launch",
+            "mainClass": "largestDstrintsub",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "removeFirstNod",
+            "request": "launch",
+            "mainClass": "removeFirstNod",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "logestSubString",
             "request": "launch",
             "mainClass": "logestSubString",

@@ -59,11 +59,11 @@ public class remove {
 
 
     public static void main(String[] args) {
-        remove list = new remove();
-          list.add(4);
-          list.add(6);
-          list.add(6);
-    
+        Node li = new Node(5);
+         li.next = new Node(4);
+
+
+         System.out.println(li);
           
           
          
