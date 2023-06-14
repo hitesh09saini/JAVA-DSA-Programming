@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Smallestwindowcon",
+            "request": "launch",
+            "mainClass": "Smallestwindowcon",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "GeneGreyCo",
+            "request": "launch",
+            "mainClass": "GeneGreyCo",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "MetaString",
+            "request": "launch",
+            "mainClass": "MetaString",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "MinNumberofFlips",
+            "request": "launch",
+            "mainClass": "MinNumberofFlips",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "heapsort",
+            "request": "launch",
+            "mainClass": "heaps.heapsort",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "heap",
+            "request": "launch",
+            "mainClass": "heaps.heap",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "priorityQue",
+            "request": "launch",
+            "mainClass": "heaps.priorityQue",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "priorityQueus",
+            "request": "launch",
+            "mainClass": "heaps.priorityQueus",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "ValidPallindrom",
+            "request": "launch",
+            "mainClass": "ValidPallindrom",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "AddString",
+            "request": "launch",
+            "mainClass": "AddString",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "removeDuplicate",
             "request": "launch",
             "mainClass": "removeDuplicate",

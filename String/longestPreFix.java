@@ -22,4 +22,31 @@ public class longestPreFix {
 
         return prefix;
     }
+
+ public String lcp(String arr[])
+    {
+        // Write your code here
+         String prefix = arr[0];
+         int n = arr.length;
+         
+        for (int i = 1; i < n; i++) {
+
+            int min = Math.min(prefix.length(), arr[i].length());
+
+            int index = 0;
+
+            while (index < min && prefix.charAt(index) == arr[i].charAt(index)) {
+
+                index++;
+
+            }
+
+            prefix = prefix.substring(0, index);
+
+        }
+
+        return prefix.length() == 0 ? "-1" : prefix;
+
+        
+    }
 }
