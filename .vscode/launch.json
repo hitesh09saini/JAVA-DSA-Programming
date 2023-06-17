@@ -6,6 +6,132 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ticket",
+            "request": "launch",
+            "mainClass": "hashing.Ticket",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "unionAndIntersectionOfTwoArr",
+            "request": "launch",
+            "mainClass": "hashing.unionAndIntersectionOfTwoArr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "countDistrinctElements",
+            "request": "launch",
+            "mainClass": "hashing.countDistrinctElements",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "Treeset",
+            "request": "launch",
+            "mainClass": "hashing.Treeset",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "linkedHashset",
+            "request": "launch",
+            "mainClass": "hashing.linkedHashset",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "itrationOnHashset",
+            "request": "launch",
+            "mainClass": "hashing.itrationOnHashset",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "hashSet",
+            "request": "launch",
+            "mainClass": "hashing.hashSet",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "validAnagram",
+            "request": "launch",
+            "mainClass": "hashing.validAnagram",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "majorityEl",
+            "request": "launch",
+            "mainClass": "hashing.majorityEl",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "TreeHashmap",
+            "request": "launch",
+            "mainClass": "hashing.TreeHashmap",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "linkedHash",
+            "request": "launch",
+            "mainClass": "hashing.linkedHash",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "implement",
+            "request": "launch",
+            "mainClass": "hashing.implement",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "PreffixSuffix",
+            "request": "launch",
+            "mainClass": "PreffixSuffix",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "hashmap",
+            "request": "launch",
+            "mainClass": "hashing.hashmap",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "slidingWindowMax",
+            "request": "launch",
+            "mainClass": "heaps.slidingWindowMax",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "weakestSoldier",
+            "request": "launch",
+            "mainClass": "heaps.weakestSoldier",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "connectNRope",
+            "request": "launch",
+            "mainClass": "heaps.connectNRope",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "nearbyCar",
+            "request": "launch",
+            "mainClass": "heaps.nearbyCar",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "Smallestwindowcon",
             "request": "launch",
             "mainClass": "Smallestwindowcon",
