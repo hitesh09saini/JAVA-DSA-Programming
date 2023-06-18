@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "uniqeSubString",
+            "request": "launch",
+            "mainClass": "Tries.uniqeSubString",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "startWithProbleam",
+            "request": "launch",
+            "mainClass": "Tries.startWithProbleam",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "prifixProbleam",
+            "request": "launch",
+            "mainClass": "Tries.prifixProbleam",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "wordBreakProblem",
+            "request": "launch",
+            "mainClass": "Tries.wordBreakProblem",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "classRoom",
+            "request": "launch",
+            "mainClass": "Tries.classRoom",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "subarray",
+            "request": "launch",
+            "mainClass": "hashing.subarray",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "excelSheet",
+            "request": "launch",
+            "mainClass": "excelSheet",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "largestSubarraySumZero",
+            "request": "launch",
+            "mainClass": "hashing.largestSubarraySumZero",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "sortString",
+            "request": "launch",
+            "mainClass": "sortString",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "smallestDistWindow",
+            "request": "launch",
+            "mainClass": "smallestDistWindow",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "Ticket",
             "request": "launch",
             "mainClass": "hashing.Ticket",
