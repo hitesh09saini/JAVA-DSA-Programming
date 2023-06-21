@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "longestordWithAllPrfix",
+            "request": "launch",
+            "mainClass": "Tries.longestordWithAllPrfix",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "hasPath",
+            "request": "launch",
+            "mainClass": "graph.hasPath",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "BFs",
+            "request": "launch",
+            "mainClass": "graph.BFs",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "createGraph",
+            "request": "launch",
+            "mainClass": "graph.createGraph",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "removeReverse",
+            "request": "launch",
+            "mainClass": "removeReverse",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "transFormStr",
+            "request": "launch",
+            "mainClass": "transFormStr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "StringFormation",
+            "request": "launch",
+            "mainClass": "StringFormation",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "uniqeSubString",
             "request": "launch",
             "mainClass": "Tries.uniqeSubString",
