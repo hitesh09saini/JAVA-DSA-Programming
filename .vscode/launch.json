@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "minimumDays",
+            "request": "launch",
+            "mainClass": "minimumDays",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "minimumremoveMakeVAlid",
+            "request": "launch",
+            "mainClass": "minimumremoveMakeVAlid",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "longestordWithAllPrfix",
             "request": "launch",
             "mainClass": "Tries.longestordWithAllPrfix",

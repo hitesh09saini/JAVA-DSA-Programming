@@ -1,23 +1,28 @@
+import java.util.HashSet;
 
 public class StringFormation {
     public static void main(String[] args) {
-        String s = "ababab";
+        String s = "aaaaaaa";
        System.out.println(name(s));
     }
    
-    public static String name(String s) {
-       String pr = s,su =s;
-       String ans="";
-       
-       for(int i=s.length();i>=0 ;i--){ 
-         
-          pr = pr.substring(0,i);
-          su = su.substring(, s.length());
-         System.out.println(pr+" "+su );
-         
-         
+    public static int name(String s) {
+      int len = s.length();
+       for(int i=len/2; i >= 1; i--)
+       {
+           if(len%i == 0)
+           {
+               int repeats = len/i;
+               String sub = s.substring(0,i);
+               StringBuilder st = new StringBuilder();
+               while(repeats-- > 0){
+                   st.append(sub);
+                 if(st.toString().equals(s))return 1;
+                  
+               }
+           }
        }
-       return ans;
+       return 0;
        
     }
 }
