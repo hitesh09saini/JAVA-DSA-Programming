@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "bipartitte",
+            "request": "launch",
+            "mainClass": "graph.bipartitte",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "cycleDete",
+            "request": "launch",
+            "mainClass": "graph.cycleDete",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "longSubStringPAlindrom",
+            "request": "launch",
+            "mainClass": "longSubStringPAlindrom",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "Wildcardstringmatching",
+            "request": "launch",
+            "mainClass": "Wildcardstringmatching",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "mincharAddForPalindrom",
+            "request": "launch",
+            "mainClass": "mincharAddForPalindrom",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "component",
+            "request": "launch",
+            "mainClass": "graph.component",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "minimumDays",
             "request": "launch",
             "mainClass": "minimumDays",
