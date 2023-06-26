@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "countZeeroSortMAtrix",
+            "request": "launch",
+            "mainClass": "countZeeroSortMAtrix",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "FirstAndLastOcc",
+            "request": "launch",
+            "mainClass": "FirstAndLastOcc",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "insertionSort",
+            "request": "launch",
+            "mainClass": "insertionSort",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "bubbleSort",
+            "request": "launch",
+            "mainClass": "bubbleSort",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "findNum",
+            "request": "launch",
+            "mainClass": "sortingAndsearching.findNum",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "bipartitte",
             "request": "launch",
             "mainClass": "graph.bipartitte",
