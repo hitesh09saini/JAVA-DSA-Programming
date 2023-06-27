@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "topologicalSorting",
+            "request": "launch",
+            "mainClass": "graph.topologicalSorting",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "cycleDeteDirectedGr",
+            "request": "launch",
+            "mainClass": "graph.cycleDeteDirectedGr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "trevels",
+            "request": "launch",
+            "mainClass": "graph.trevels",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "dfsGraph",
+            "request": "launch",
+            "mainClass": "graph.dfsGraph",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "bfsgraph",
+            "request": "launch",
+            "mainClass": "graph.bfsgraph",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "countZeeroSortMAtrix",
             "request": "launch",
             "mainClass": "countZeeroSortMAtrix",

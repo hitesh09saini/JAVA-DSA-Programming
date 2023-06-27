@@ -5,8 +5,6 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import javax.imageio.ImageIO;
-
 public class bipartitte {
   
 
@@ -45,7 +43,7 @@ public class bipartitte {
         
 
     }
-
+    //   O(v+e)
     public static boolean isBipartite( ArrayList<Edge> graph[]) {
         int color[] = new int[graph.length];
 

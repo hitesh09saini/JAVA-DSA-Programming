@@ -1,10 +1,21 @@
 package graph;
 
 import java.util.ArrayList;
-import graph.createGraph.Edge;
 
-public class hasPath {
-     static void createGraph(ArrayList<Edge> graph[]) {
+public class trevels {
+    static class Edge {
+        int s;
+        int d;
+        int w;
+
+        public Edge(int s, int d, int w) {
+            this.s = s;
+            this.d = d;
+            this.w = w;
+        }
+    }
+
+    static void createGraph(ArrayList<Edge> graph[]) {
         for (int i = 0; i < graph.length; i++) {
             graph[i] = new ArrayList<>();
         }
@@ -31,29 +42,29 @@ public class hasPath {
         graph[5].add(new Edge(5, 6, 1));
 
         graph[6].add(new Edge(6, 5, 1));
+        graph[7].add(new Edge(7, 9, 1));
 
-    }
+    } 
 
+    public static void tra(ArrayList<Edge> graph[]) {
+        boolean vis[] = new boolean[graph.length];
 
-    public static boolean HasPath( ArrayList<Edge>[]graph,int src ,int dest,boolean visited[]) {
-        if(src == dest)return true;
-
-        visited[src] =true;
-        for(int i=0;i<graph[src].size();i++){
-            Edge e = graph[src].get(i);
-
-            if(!visited[e.dest]&& HasPath(graph, e.dest, dest, visited)){
-               return true;
+          for(int i=0;i<graph.length;i++){
+            for(int j=0;j<graph[i].size();j++){
+                if(!vis[graph[i].get(j).s]){
+                    vis[graph[i].get(j).s] = true;
+                  System.out.print(graph[i].get(j).s+" ");
+                }
             }
-        }
-        return false;
+          }
+          
     }
 
     public static void main(String[] args) {
-        int V = 7;
-        ArrayList<Edge>[] graph = new ArrayList[V];
+        int v = 8;
+        ArrayList<Edge> graph[] = new ArrayList[v];
         createGraph(graph);
-        System.out.println(HasPath(graph, 0, 5,new boolean [V]));
-
+        // System.out.println(graph[0].get(0).s);
+       tra(graph);
     }
 }
