@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "countMoreThen",
+            "request": "launch",
+            "mainClass": "countMoreThen",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "tworeaptenum",
+            "request": "launch",
+            "mainClass": "tworeaptenum",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "bitonicPoint",
+            "request": "launch",
+            "mainClass": "bitonicPoint",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "Searchinamatrix",
+            "request": "launch",
+            "mainClass": "Searchinamatrix",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "dijkstraAlgorithm",
+            "request": "launch",
+            "mainClass": "graph.dijkstraAlgorithm",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "allPathsFSouToTar",
+            "request": "launch",
+            "mainClass": "graph.allPathsFSouToTar",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "topologicalSortByBFS",
+            "request": "launch",
+            "mainClass": "graph.topologicalSortByBFS",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "FloorinaSortedArray",
+            "request": "launch",
+            "mainClass": "FloorinaSortedArray",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "selectionSort",
+            "request": "launch",
+            "mainClass": "selectionSort",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "arrSubOfAnothArr",
+            "request": "launch",
+            "mainClass": "arrSubOfAnothArr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "topologicalSorting",
             "request": "launch",
             "mainClass": "graph.topologicalSorting",
