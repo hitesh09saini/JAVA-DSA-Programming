@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sortInSpecificOrder",
+            "request": "launch",
+            "mainClass": "sortInSpecificOrder",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "prim",
+            "request": "launch",
+            "mainClass": "graph.prim",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "bellmanFordAlgo",
+            "request": "launch",
+            "mainClass": "graph.bellmanFordAlgo",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "frindtriplate",
+            "request": "launch",
+            "mainClass": "frindtriplate",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "numAndDigiSum",
             "request": "launch",
             "mainClass": "numAndDigiSum",
