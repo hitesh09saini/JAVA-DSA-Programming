@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "triplateFamily",
+            "request": "launch",
+            "mainClass": "triplateFamily",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "sortInSpecificOrder",
             "request": "launch",
             "mainClass": "sortInSpecificOrder",
