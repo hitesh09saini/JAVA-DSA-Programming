@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sortArrayAccordtoOther",
+            "request": "launch",
+            "mainClass": "sortArrayAccordtoOther",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "smallestPositiveMiss",
+            "request": "launch",
+            "mainClass": "smallestPositiveMiss",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "ropeCuting",
+            "request": "launch",
+            "mainClass": "ropeCuting",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "uniuqeAr",
+            "request": "launch",
+            "mainClass": "uniuqeAr",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "triplateFamily",
             "request": "launch",
             "mainClass": "triplateFamily",
