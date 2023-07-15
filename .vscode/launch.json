@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stronglyConnComp",
+            "request": "launch",
+            "mainClass": "graph.stronglyConnComp",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "floodFillAlgo",
+            "request": "launch",
+            "mainClass": "graph.floodFillAlgo",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "kruskalAlgo",
+            "request": "launch",
+            "mainClass": "graph.kruskalAlgo",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "disJointSetDs",
+            "request": "launch",
+            "mainClass": "graph.disJointSetDs",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "citiesConnecting",
+            "request": "launch",
+            "mainClass": "graph.citiesConnecting",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "perfectSquere",
+            "request": "launch",
+            "mainClass": "perfectSquere",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "cheapestFlight",
+            "request": "launch",
+            "mainClass": "graph.cheapestFlight",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "sortArrayAccordtoOther",
             "request": "launch",
             "mainClass": "sortArrayAccordtoOther",
