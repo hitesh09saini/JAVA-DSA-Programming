@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "unboundedKnapsack",
+            "request": "launch",
+            "mainClass": "Dp.unboundedKnapsack",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "targetSumSubSet",
+            "request": "launch",
+            "mainClass": "Dp.targetSumSubSet",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "smallestPositiveMissNu",
+            "request": "launch",
+            "mainClass": "smallestPositiveMissNu",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "knapsack",
+            "request": "launch",
+            "mainClass": "Dp.knapsack",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "climbingStairs",
+            "request": "launch",
+            "mainClass": "Dp.climbingStairs",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "fibonacci",
+            "request": "launch",
+            "mainClass": "Dp.fibonacci",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "makeArrEleUnique",
+            "request": "launch",
+            "mainClass": "makeArrEleUnique",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "articulationPoint",
+            "request": "launch",
+            "mainClass": "graph.articulationPoint",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "bridgeInGraph",
+            "request": "launch",
+            "mainClass": "graph.bridgeInGraph",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "stronglyConnComp",
             "request": "launch",
             "mainClass": "graph.stronglyConnComp",
