@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "longestComSub",
+            "request": "launch",
+            "mainClass": "Dp.longestComSub",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "rodCutting",
+            "request": "launch",
+            "mainClass": "Dp.rodCutting",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "unboundedKnapsack",
             "request": "launch",
             "mainClass": "Dp.unboundedKnapsack",
