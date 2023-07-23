@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "longIncreasingSubseq",
+            "request": "launch",
+            "mainClass": "Dp.longIncreasingSubseq",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "longestSubString",
+            "request": "launch",
+            "mainClass": "Dp.longestSubString",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "StringConvertion",
+            "request": "launch",
+            "mainClass": "Dp.StringConvertion",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "Editdistance",
+            "request": "launch",
+            "mainClass": "Dp.Editdistance",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "PrintLinkList",
+            "request": "launch",
+            "mainClass": "PrintLinkList",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "longestComSub",
             "request": "launch",
             "mainClass": "Dp.longestComSub",

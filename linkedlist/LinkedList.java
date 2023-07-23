@@ -1,6 +1,3 @@
-import java.util.Deque;
-
-import recurtion.margeSort;
 
 public class LinkedList {
 
