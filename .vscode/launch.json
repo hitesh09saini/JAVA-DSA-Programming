@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "createLinkedLIst",
+            "request": "launch",
+            "mainClass": "createLinkedLIst",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "longIncreasingSubseq",
             "request": "launch",
             "mainClass": "Dp.longIncreasingSubseq",

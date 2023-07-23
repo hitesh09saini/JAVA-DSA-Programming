@@ -429,10 +429,10 @@ public class LinkedList {
        l.addFirst(4);
        l.addFirst(5);
       
-
+      
        l.PrintLL();
-       l.Zig_Zag();
-       l.PrintLL();
+    //    l.Zig_Zag();
+    //    l.PrintLL();
     }
 
 }
