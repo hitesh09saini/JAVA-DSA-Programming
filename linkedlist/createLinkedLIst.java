@@ -158,7 +158,7 @@ public class createLinkedLIst {
 
     public boolean isCircular(){
         Node slow = head,fast = head;
-        while(fast != null || fast.next != null){
+        while(fast != null && fast.next != null){
             slow = slow.next;
             fast = fast.next.next;
 
@@ -174,16 +174,20 @@ public class createLinkedLIst {
         
         System.out.println(l.isEmpty());
         
-        l.AddFirst(0);
-        l.AddFirst(2);
-        l.AddFirst(3);
+        l.AddFirst(7);
         l.AddFirst(6);
-        l.AddFirst(9);
-         l.AddLast(-1);
+        l.AddFirst(5);
+        l.AddFirst(3);
+        l.AddFirst(2);
+        l.AddFirst(1);
+        
+  
 
-     l.PrintLL();
-
+    //  l.PrintLL();
+    //    System.out.println(l.isCircular());
        
+       
+        
     // //    l.DeleteFirst();
 
     // //    l.DeleteLast();
@@ -192,9 +196,72 @@ public class createLinkedLIst {
     //     // l.DeleteNth(3);
 
     //    l.replace(3, 60);
-    //    l.PrintLL();
+       l.PrintLL();
+    
+       DeleteAlt();
+    //    MiddleLL(4);
+    //    l.insert(4);
+       l.PrintLL();
+    }
 
-       
+    private static void MiddleLL(int i) {
+        Node slow = head,fast = head;
+        Node p = slow;
+        while(fast!=null && fast.next != null){
+            p = slow;
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        Node neNode = new Node(i);
+
+        neNode.next = slow;
+        p.next = neNode;
 
     }
+
+    private Node insert(int i) {
+        Node x = head;
+        Node newNode = new Node(i);
+
+        // bignning
+        if(head.data >i){
+            newNode.next = head;
+            head = newNode;
+            return head;
+        }
+
+        Node pre = x;
+        // middle
+        
+        while(x != null){
+
+           
+            // small 
+             if(x.data > i){
+                 newNode.next = x;
+                 pre.next = newNode;
+                return head;     
+             }
+               pre = x;
+               x = x.next;
+        }
+
+        pre.next = newNode;
+        return head;
+    }
+    
+   
+    
+   public static void DeleteAlt(){
+     Node temp=head;
+        while(temp!=null && temp.next!=null)
+        {
+            
+            temp.next=temp.next.next;
+            temp=temp.next;
+        }
+   }
+   
+  
 }

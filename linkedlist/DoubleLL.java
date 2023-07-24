@@ -119,17 +119,61 @@ public class DoubleLL {
 
     public static void main(String[] args) {
         DoubleLL dll = new DoubleLL();
-        dll.addFirst(5);
-        dll.addFirst(6);
-        dll.addFirst(8);
-        dll.addlast(8);
-        dll.addlast(9);
-
+        dll.addFirst(4);
+        dll.addFirst(3);
+        dll.addFirst(1);
+        
         dll.Print();
 
-        dll.ReverseLL();
+        DeleteAlter();
+    //    dll.Print();
+       
+       dll.Print();
+    }
 
-        dll.Print();
+   
 
+    public static void deleteNodd(int i){
+
+        // Your code here	
+	 int size = 1;
+	 Node x = head;
+	 if(i==1){
+       head = head.next;
+       head.prev = null;
+        return;
+     }
+	 
+	 while(x.next != null){
+	 
+	     if(size == i){
+	       x.prev.next = x.next;
+           x.next.prev = x.prev;
+	      return ;
+	     }
+	     size++;
+	     x = x.next;
+	 }
+     
+      x.prev.next = null;
+     return;
+    }
+
+    public static void DeleteAlter(){
+        Node n = head;
+        int s = 0;
+        while(n.next != null){
+
+            if(s/2!=0){
+                n.prev.next = n.next;
+                n.next.prev = n.prev;
+            }
+            n = n.next;
+            s++;
+        }
+
+        if(s/2!=0){
+            
+        }
     }
 }
