@@ -173,7 +173,7 @@ public class createLinkedLIst {
         createLinkedLIst l = new createLinkedLIst();
         
         System.out.println(l.isEmpty());
-        
+        // l.AddFirst(8);
         l.AddFirst(7);
         l.AddFirst(6);
         l.AddFirst(5);
@@ -197,8 +197,8 @@ public class createLinkedLIst {
 
     //    l.replace(3, 60);
        l.PrintLL();
-    
-       DeleteAlt();
+       swap();
+    //    DeleteAlt();
     //    MiddleLL(4);
     //    l.insert(4);
        l.PrintLL();
@@ -218,6 +218,29 @@ public class createLinkedLIst {
         neNode.next = slow;
         p.next = neNode;
 
+    }
+
+    public static void swap(){
+          // code here
+          Node p  = head;
+          Node s = head.next;
+
+         
+
+          
+          while(p.next.next!=null && s.next.next != null){ 
+           // swaping
+           int t = p.data;
+           p.data = s.data;
+           s.data = t;
+
+           s = s.next.next;
+           p = p.next.next;
+          
+          }
+           int t = p.data;
+           p.data = s.data;
+           s.data = t;
     }
 
     private Node insert(int i) {
