@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mountainRanges",
+            "request": "launch",
+            "mainClass": "Dp.mountainRanges",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "countBst",
+            "request": "launch",
+            "mainClass": "Dp.countBst",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "catalanNu",
+            "request": "launch",
+            "mainClass": "Dp.catalanNu",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "wlidCardMatching",
+            "request": "launch",
+            "mainClass": "Dp.wlidCardMatching",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "createLinkedLIst",
             "request": "launch",
             "mainClass": "createLinkedLIst",
