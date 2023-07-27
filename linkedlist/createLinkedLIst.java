@@ -14,12 +14,12 @@ public class createLinkedLIst {
         }
     }
 
-    public  boolean isEmpty(){
+    public static  boolean isEmpty(){
         return head == null;
     }
 
     //  Add In the Last
-    public void AddLast(int data){
+    public static void AddLast(int data){
         size++;
         Node newNode = new Node(data);
         if(isEmpty()){
@@ -41,7 +41,7 @@ public class createLinkedLIst {
 
     // Add In the First
 
-    public  void AddFirst(int data){
+    public static  void AddFirst(int data){
         size++;
         Node newNode = new Node(data);
         if(isEmpty()){
@@ -55,7 +55,7 @@ public class createLinkedLIst {
 
     // Add in middle 
 
-    public void Addnth(int inx,int data){
+    public static void Addnth(int inx,int data){
         size++;
         Node newNode = new Node(data);
         if(isEmpty()){
@@ -76,7 +76,7 @@ public class createLinkedLIst {
     }
 
 
-    public int DeleteNth(int inx){
+    public static int DeleteNth(int inx){
        
        
         if(isEmpty()){
@@ -96,7 +96,7 @@ public class createLinkedLIst {
        return val;
     }
 
-    public int DeleteFirst(){
+    public static int DeleteFirst(){
         if(isEmpty()){
             System.out.println("LinkedList is empty");
             return Integer.MIN_VALUE;
@@ -107,7 +107,7 @@ public class createLinkedLIst {
        return val;
     }
 
-    public int DeleteLast(){
+    public static int DeleteLast(){
         if(isEmpty()){
             System.out.println("LinkedList is empty");
             return Integer.MIN_VALUE;
@@ -122,7 +122,7 @@ public class createLinkedLIst {
         return val;
     }
 
-     public void replace(int inx ,int data){
+     public static void replace(int inx ,int data){
         if(isEmpty()){
             System.out.println("LinkedList is empty");
             return ;
@@ -141,7 +141,7 @@ public class createLinkedLIst {
 
      }
     // Print the LInklist
-       public  void PrintLL(){
+       public static  void PrintLL(){
          if(head == null){
             System.out.println("LL is empty");
             return;
@@ -156,7 +156,7 @@ public class createLinkedLIst {
     }
 
 
-    public boolean isCircular(){
+    public static boolean isCircular(){
         Node slow = head,fast = head;
         while(fast != null && fast.next != null){
             slow = slow.next;
@@ -168,21 +168,34 @@ public class createLinkedLIst {
         }
         return false;
     }
+
+    public static void removeLoop(){
+        Node slow = head;
+        Node fast = head,p=slow;
+
+        while(fast != null && fast.next != null){
+             p = slow;
+            fast = fast.next.next;
+            slow = slow.next;
+            if(slow == fast){
+                break;
+            }
+        }
+       
+        p.next = null;
+    }
     
     public static void main(String[] args) {
-        createLinkedLIst l = new createLinkedLIst();
+      head = new Node(1);
+      head.next = new Node(2);
+      head.next.next = new Node(3);
+      head.next.next.next = head;
+      
         
-        System.out.println(l.isEmpty());
-        // l.AddFirst(8);
-        l.AddFirst(7);
-        l.AddFirst(6);
-        l.AddFirst(5);
-        l.AddFirst(3);
-        l.AddFirst(2);
-        l.AddFirst(1);
-        
-  
-
+     System.out.println(isCircular());
+     removeLoop();
+     System.out.println(isCircular());
+      PrintLL();
     //  l.PrintLL();
     //    System.out.println(l.isCircular());
        
@@ -196,12 +209,11 @@ public class createLinkedLIst {
     //     // l.DeleteNth(3);
 
     //    l.replace(3, 60);
-       l.PrintLL();
-       swap();
+     
     //    DeleteAlt();
     //    MiddleLL(4);
     //    l.insert(4);
-       l.PrintLL();
+       
     }
 
     private static void MiddleLL(int i) {

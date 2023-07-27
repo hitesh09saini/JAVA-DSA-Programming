@@ -285,6 +285,7 @@ public class LinkedList {
         Node slow = head;
         Node fast = head;
         boolean flag = false;
+
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
@@ -296,9 +297,10 @@ public class LinkedList {
 
             }
         }
+
         // not exist
 
-        if (flag == false) {
+        if (flag==false) {
             return;
         }
 
@@ -424,16 +426,18 @@ public class LinkedList {
     }
 
     public static void main(String[] args) {
-       LinkedList l = new LinkedList();
+       head = new Node(1);
+       head.next = new Node(2);
+       head.next.next = new Node(3);
+       head.next.next.next = new Node(4);
+       head.next.next.next.next = head.next.next;
+      
 
-       l.addFirst(1);
-       l.addFirst(2);
-       l.addFirst(3);
-       l.addFirst(4);
-       l.addFirst(5);
+
       
-      
-       l.PrintLL();
+         System.out.println(isCycle());
+          removeCycle();
+         System.out.println(isCycle());
     //    l.Zig_Zag();
     //    l.PrintLL();
     }

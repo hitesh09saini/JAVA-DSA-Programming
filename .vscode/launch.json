@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "createST",
+            "request": "launch",
+            "mainClass": "segmentTree.createST",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "countPair",
+            "request": "launch",
+            "mainClass": "countPair",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "mountainRanges",
             "request": "launch",
             "mainClass": "Dp.mountainRanges",
