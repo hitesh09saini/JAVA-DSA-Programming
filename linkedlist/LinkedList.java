@@ -322,8 +322,7 @@ public class LinkedList {
 
     public  Node mergeSort(Node head) {
 
-        if (head == null || head.next == null)
-            return head;
+        if (head == null || head.next == null)return head;
 
         // find mid
 
@@ -425,6 +424,29 @@ public class LinkedList {
         
     }
 
+    public static Node rearrange(Node head){
+        Node t = head,re = new Node(-1);
+        while(t != null)
+        {
+            if(t.data%2!=0){
+              re.next = t;
+              re = re.next;
+            }
+        }
+
+        t= head;
+        
+        while(t != null)
+        {
+            if(t.data%2==0){
+              re.next = t;
+              re = re.next;
+            }
+        }
+
+        return re.next;
+
+    }
     public static void main(String[] args) {
        head = new Node(1);
        head.next = new Node(2);
@@ -435,11 +457,12 @@ public class LinkedList {
 
 
       
-         System.out.println(isCycle());
-          removeCycle();
-         System.out.println(isCycle());
+        //  System.out.println(isCycle());
+        //   removeCycle();
+        //  System.out.println(isCycle());
     //    l.Zig_Zag();
     //    l.PrintLL();
+        
     }
 
 }

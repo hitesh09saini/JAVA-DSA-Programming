@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestPalindrom",
+            "request": "launch",
+            "mainClass": "LongestPalindrom",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "rotateLL",
+            "request": "launch",
+            "mainClass": "rotateLL",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "createST",
             "request": "launch",
             "mainClass": "segmentTree.createST",
