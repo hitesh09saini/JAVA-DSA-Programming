@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "max",
+            "request": "launch",
+            "mainClass": "max",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "valid",
+            "request": "launch",
+            "mainClass": "valid",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "MaxDiff",
+            "request": "launch",
+            "mainClass": "MaxDiff",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "middlePop",
+            "request": "launch",
+            "mainClass": "middlePop",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "sublistreverse",
+            "request": "launch",
+            "mainClass": "sublistreverse",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "reorderList",
+            "request": "launch",
+            "mainClass": "reorderList",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "quickSort",
+            "request": "launch",
+            "mainClass": "quickSort",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "LongestPalindrom",
             "request": "launch",
             "mainClass": "LongestPalindrom",

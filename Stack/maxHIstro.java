@@ -8,7 +8,7 @@ public class maxHIstro {
 
     private static int maxArea(int[] a) {
         int n = a.length;
-         
+       
         int left[] = new int[n];
         int right[] = new int[n];
         int maxArea = 0;
