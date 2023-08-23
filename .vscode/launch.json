@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ipl6",
+            "request": "launch",
+            "mainClass": "ipl6",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "IpL",
+            "request": "launch",
+            "mainClass": "IpL",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "MaximumOfMinimumForEveryWindowsize",
+            "request": "launch",
+            "mainClass": "MaximumOfMinimumForEveryWindowsize",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "max",
             "request": "launch",
             "mainClass": "max",
