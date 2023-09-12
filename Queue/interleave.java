@@ -21,6 +21,8 @@ public class interleave {
         while(!q.isEmpty()){
             System.out.print(q.remove()+" ");
         }
+
+        
     }
 
     private static void interleaveArr( Queue<Integer> q) {
