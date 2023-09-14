@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NewOOps",
+            "request": "launch",
+            "mainClass": "NewOOps",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "reverseKthele",
             "request": "launch",
             "mainClass": "reverseKthele",
