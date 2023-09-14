@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "p1",
+            "request": "launch",
+            "mainClass": "binarySearchTree.p1",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "NewOOps",
             "request": "launch",
             "mainClass": "NewOOps",
