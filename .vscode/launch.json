@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpiralLevelOrder",
+            "request": "launch",
+            "mainClass": "binarySearchTree.SpiralLevelOrder",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "countLevel",
+            "request": "launch",
+            "mainClass": "binarySearchTree.countLevel",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "levelOrder",
+            "request": "launch",
+            "mainClass": "binarySearchTree.levelOrder",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "p4$Node",
+            "request": "launch",
+            "mainClass": "binarySearchTree.p4$Node",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "p3",
+            "request": "launch",
+            "mainClass": "binarySearchTree.p3",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "p2",
+            "request": "launch",
+            "mainClass": "loop.p2",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "p1",
+            "request": "launch",
+            "mainClass": "loop.p1",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "loop",
+            "request": "launch",
+            "mainClass": "loop",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "encapsulation",
+            "request": "launch",
+            "mainClass": "encapsulation",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "vaildBst",
+            "request": "launch",
+            "mainClass": "binarySearchTree.vaildBst",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "p2",
+            "request": "launch",
+            "mainClass": "binarySearchTree.p2",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "p1",
             "request": "launch",
             "mainClass": "binarySearchTree.p1",
