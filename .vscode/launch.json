@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "gcd",
+            "request": "launch",
+            "mainClass": "binarySearchTree.gcd",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "removeHalfNOde",
+            "request": "launch",
+            "mainClass": "binarySearchTree.removeHalfNOde",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "oddLevel",
+            "request": "launch",
+            "mainClass": "binarySearchTree.oddLevel",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "largestValueEachLevel",
+            "request": "launch",
+            "mainClass": "binarySearchTree.largestValueEachLevel",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "depthOfBinary",
+            "request": "launch",
+            "mainClass": "binarySearchTree.depthOfBinary",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "shortDistance",
+            "request": "launch",
+            "mainClass": "binarySearchTree.shortDistance",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "Sbiling",
+            "request": "launch",
+            "mainClass": "binarySearchTree.Sbiling",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "Mirror",
+            "request": "launch",
+            "mainClass": "binarySearchTree.Mirror",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "SpiralLevelOrder",
             "request": "launch",
             "mainClass": "binarySearchTree.SpiralLevelOrder",
