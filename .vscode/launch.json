@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxNodeLevel",
+            "request": "launch",
+            "mainClass": "binarySearchTree.MaxNodeLevel",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "gcd",
             "request": "launch",
             "mainClass": "binarySearchTree.gcd",
