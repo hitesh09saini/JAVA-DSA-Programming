@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "topview$Node",
+            "request": "launch",
+            "mainClass": "binarySearchTree.topview$Node",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "subtree",
+            "request": "launch",
+            "mainClass": "binarySearchTree.subtree",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "diameterOfTree",
+            "request": "launch",
+            "mainClass": "binarySearchTree.diameterOfTree",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "hightOfTree",
+            "request": "launch",
+            "mainClass": "binarySearchTree.hightOfTree",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "MaxNodeLevel",
             "request": "launch",
             "mainClass": "binarySearchTree.MaxNodeLevel",
