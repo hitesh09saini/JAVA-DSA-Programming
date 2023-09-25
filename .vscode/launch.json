@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "markseet",
+            "request": "launch",
+            "mainClass": "markseet",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "inorder",
+            "request": "launch",
+            "mainClass": "binarySearchTree.inorder",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "delete",
+            "request": "launch",
+            "mainClass": "binarySearchTree.delete",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "topview$Node",
             "request": "launch",
             "mainClass": "binarySearchTree.topview$Node",
