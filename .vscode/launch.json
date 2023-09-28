@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FlattenBt",
+            "request": "launch",
+            "mainClass": "binarySearchTree.FlattenBt",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "diagonalTrav",
+            "request": "launch",
+            "mainClass": "binarySearchTree.diagonalTrav",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "VerticalTraversal",
+            "request": "launch",
+            "mainClass": "binarySearchTree.VerticalTraversal",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "VerticalTreversal",
+            "request": "launch",
+            "mainClass": "binarySearchTree.VerticalTreversal",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "NodeAreCousins",
+            "request": "launch",
+            "mainClass": "binarySearchTree.NodeAreCousins",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "deletionInBinaryTree",
+            "request": "launch",
+            "mainClass": "binarySearchTree.deletionInBinaryTree",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "buildTree$Node",
+            "request": "launch",
+            "mainClass": "buildTree$Node",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "patten",
+            "request": "launch",
+            "mainClass": "patten",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "markseet",
             "request": "launch",
             "mainClass": "markseet",

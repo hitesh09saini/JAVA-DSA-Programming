@@ -27,8 +27,8 @@ public class markseet {
         int chemistry = s.nextInt();
         int physics = s.nextInt();
 
-        int totalMarks = 100 + 100 + 70 + 70 + 70;
-        int obtainMarks = english + hindi + math + chemistry + physics;
+        float totalMarks = 100 + 100 + 70 + 70 + 70;
+        float obtainMarks = english + hindi + math + chemistry + physics;
 
         System.out.println("\n\n\n\n\n");
       
@@ -42,7 +42,7 @@ public class markseet {
         System.out.println("Roll No: " + rollNo);
 
         // num
-        System.out.println("S.No.   Subject\t\t\t\tMarks       out of");
+        System.out.println("S.No.   Subject\t\t\t\t\tMarks       out of");
         System.out.println("1.        English\t\t\t" + english + "      100");
         System.out.println("2.        Hindi\t\t\t\t" + hindi + "        100");
         System.out.println("3.        Math\t\t\t\t" + math + "          70");
