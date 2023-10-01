@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "boundaryTraver",
+            "request": "launch",
+            "mainClass": "binarySearchTree.boundaryTraver",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "mergeTree",
+            "request": "launch",
+            "mainClass": "binarySearchTree.mergeTree",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
+            "name": "sub",
+            "request": "launch",
+            "mainClass": "sub",
+            "projectName": "java second programing_981b9d45"
+        },
+        {
+            "type": "java",
             "name": "FlattenBt",
             "request": "launch",
             "mainClass": "binarySearchTree.FlattenBt",
