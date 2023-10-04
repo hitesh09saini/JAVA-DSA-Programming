@@ -1,6 +1,0 @@
-{
-    "java.debug.settings.onBuildFailureProceed": true,
-    "[java]": {
-        "editor.suggest.snippetsPreventQuickSuggestions": true
-    }
-}

@@ -1,5 +1,3 @@
-package binarySearchTree;
-
 import java.util.ArrayList;
 
 public class boundaryTraver {

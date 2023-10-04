@@ -26,7 +26,5 @@ public class avl {
         return (a>b)? a:b;
     }
 
-    public static Node  right() {
-        
-    }
+    
 }

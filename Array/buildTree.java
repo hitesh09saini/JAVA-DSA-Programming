@@ -66,8 +66,7 @@ public class buildTree {
             return newNode;
         }
 
-        public
-
+      
         private static void print(Node root) {
 
             if (root == null) {
